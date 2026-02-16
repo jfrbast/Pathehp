@@ -11,7 +11,7 @@ INSERT INTO films (title, description, duration, created_at) VALUES
 ('King Kong', 'Un gigantesque gorille capturé sur une île mystérieuse.', 135, NOW()),
 ('Madagascar: Opération Babouins', 'Aventures déjantées avec des singes et autres animaux.', 95, NOW());
 
--- Séances d''exemple
+-- Séances d'exemple
 INSERT INTO seances (film_id, start_time, seats_total) VALUES
 (1, '2026-02-10 20:30:00', 100),
 (1, '2026-02-11 18:00:00', 80),
