@@ -99,4 +99,61 @@ nav span {
     margin-right: 10px;
 }
 
+/* --- Films à l'affiche : grille avec affiches --- */
+.films-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+    margin-top: 15px;
+}
+
+.film-card {
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.12);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.film-poster-wrapper {
+    width: 100%;
+    aspect-ratio: 2 / 3;
+    background: #ddd;
+    overflow: hidden;
+}
+
+.film-poster-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.film-card-body {
+    padding: 10px 12px 12px;
+}
+
+.film-card-title {
+    font-weight: bold;
+    margin: 0 0 4px;
+    font-size: 16px;
+}
+
+.film-card-meta {
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 8px;
+}
+
+.film-card-actions a {
+    font-size: 14px;
+    color: #ff9800;
+    text-decoration: none;
+}
+
+.film-card-actions a:hover {
+    text-decoration: underline;
+}
+
 
